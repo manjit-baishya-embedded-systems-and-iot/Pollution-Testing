@@ -2,7 +2,7 @@ const int sensorPin = A0;  // assuming the sensor is connected to analog pin A0
 
 void setup() {
 
-  Serial.begin(15200);
+  Serial.begin(115200);
 
   pinMode(sensorPin, INPUT);
 }
