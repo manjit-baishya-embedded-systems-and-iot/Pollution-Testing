@@ -11,7 +11,7 @@ void setup() {
   }
 
   // Start Serial2 at 9600 baud (change baud rate as needed)
-  Serial2.begin(9600, SERIAL_8N1, 16, 17); // GPIO16 as RX, GPIO17 as TX
+  Serial2.begin(115200, SERIAL_8N1, 16, 17); // GPIO16 as RX, GPIO17 as TX
   Serial.println("ESP32 UART is ready.");
 }
 
