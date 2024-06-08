@@ -24,7 +24,7 @@ void loop() {
 }
 
 // get the value of ZP07 Sensor
-void zp07(){
+int zp07(){
 
   // reading analog value
   int level = analogRead(zp07)/256;
@@ -32,7 +32,7 @@ void zp07(){
 }
 
 // get the value of PM2.5 Sensor
-void pm25(){
+int pm25(){
 
   // reading analog value
   int level = analogRead(pm25)/256;
